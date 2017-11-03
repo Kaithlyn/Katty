@@ -1,53 +1,123 @@
-body{
-	font-family: robot
-	color: #222222;
-}
-h1{
-	font-size: 2rem;
-	text-align: center;
-	border-bottom: 2px solid #aaaaaa;
-	font-variant: normal;
-	font-weight: 400;
-
-}
-h2{
-	font-weight: 500;
-	font-size: 1.5rem;
-	border-bottom: 1px solid #aaaaaa;
-
-}
-h3{
-	font-weight: 600;
-	font-size: 1.3125rem;
-}
-h4{
-	font-size: 1.125rem;
-	font-weight: 600;
-}
-figure, .sod {
-	margin: 15px 40px 15px 40px;
-	padding: 15px;
-	width: 250px;
-	background-color: #eeeeee;
-	border: 1px solid #dddddd;
-	border-radius: 3px;
-}
-figcaption{
-	font-weight: 500;
-}
-p{
-	text-align: justify;
-	text-indent: 40px;
-}
-a{
-	text-decoration: none;
-	color: #0088ff;
-}
-blockquote{
-	padding: 15px;
-	font-style: italic;
-	background-color: #eeeeee;
-	border-radius: 3px;
-	border: 1px solid #dddddd;
+/* Задание 1 */
+.task1__scary-text {
+color: red;
+font-family: nosifer;
+font-size: 2rem;
 }
 
+/* Задание 2 */
+.task2__lyrics {
+line-height: 1.5;
+letter-spacing: normal;
+}
+
+/* Задание 3 */
+.task3__italic {
+font-style: italic;
+}
+.task3__oblique {
+font-style: oblique;
+}
+.task3__bold {
+font-weight: bold;
+}
+.task3__underlined {
+text-decoration: underline;
+}
+.task3__overlined {
+text-decoration: overline;
+}
+.task3__linethrough {
+text-decoration: line-through;
+}
+.task3__bonus {
+text-decoration: line-through underline;
+}
+
+/* Задание 4 */
+.task4__block1 {
+background-color: red;
+border-radius: 70%;
+}
+.task4__block2 {
+background-color: yellow;
+border-radius: 70%;
+
+}
+.task4__block3 {
+background-color: green;
+border-radius: 70%;
+}
+
+/* Задание 5 */
+.task5__name {
+color: hotpink;
+}
+.task5__hex {
+color: #FF69B4;
+}
+.task5__rgb {
+color:rgb(255, 105, 180);
+}
+.task5__rgba {
+color: rgba(255, 105, 180, 0.5);
+}
+.task5__hsl {
+color: hsl(330, 100%, 71%);
+}
+.task5__hsla {
+color: hsla(330, 100%, 71%, 0.5);
+}
+
+/* Задание 6 */
+.task6__cat-parent {
+text-align: right;
+}
+
+/* Задание 7 */
+.task7__bear {
+  position: absolute;
+  z-index: -1;
+}
+
+/* Задание 8 */
+.task8__cage {
+	position: relative;
+}
+
+/* Задание 9 */
+.task9__spider-man {
+  position: relative;
+}
+
+/* Задание 10 */
+.task10__pelmeshek {
+position: fixed;
+top: 0; 
+right: 0; 
+width: 100px;
+}
+
+/* Бонусное задание 1 */
+.task-bonus1 {
+transform-origin: 2% 50% 0;
+transform: rotate(180deg);
+}
+
+/* Бонусное задание 2 */
+.task-bonus2__sidebar {
+clear: both;
+float: left;
+}
+.task-bonus2__content {
+
+}
+.task-bonus2__footer {
+
+}
+
+/* Бонусное задание 3 */
+.task-bonus3__flex {
+	display: flex;
+	justify-content: space-around;
+}
